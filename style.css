@@ -1,0 +1,128 @@
+.titlu{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  color: #ba95df;
+  font-size: 5rem;
+  text-align: center;
+}
+.lead{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #B993DF;
+    font-size: 3rem;
+    text-align: center;
+}
+.resume, .top, .projects, .bottom{
+  padding: 10px;
+  margin: 20px;
+}
+.profile{
+  width: 300px;
+  border-radius: 50%;
+  display:block;
+  margin: 0 auto;
+}
+.profiletitle{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color:#B993DF;
+}
+.secthr{
+  border: dotted  #93DFDF 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 25px auto;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style:oblique;
+  color:#B993DF;
+}
+
+/*
+h3{
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  color:#B993DF;
+}
+  */
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center stretch;
+    height: 420px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .skills {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;  }
+
+  @media (max-width: 1250px) {
+    .skills-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+  .title-container{
+    margin-bottom: 20px;
+  }
+
+  td,th{
+    padding: 5px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+  }
+  .grid-item-text{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .grid-item-photo img{
+    display: block;
+    margin: 0 auto;
+  }
+
+a{
+font-family: "Montserrat", sans-serif;
+color: beige;
+}
+.btn{
+  padding: 10px;
+      background-color: #93DFDF;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+}
+.contact{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#B993DF;
+}
+footer{
+  color:#fff;
+  background-color: #B993DF;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 20px;
+}
